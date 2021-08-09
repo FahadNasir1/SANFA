@@ -1,0 +1,43 @@
+*{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/poppins/poppins-v5-latin-300.eot");
+}
+body{
+    max-width: 1200px;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    background-color:white;
+}
+
+form{
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}
+
+.bolder{
+    font-family: 'poppins';
+    src: url("../fonts/poppins/poppins-v5-latin-300.eot");
+    font-size: larger;
+    font-weight: 900;
+}
+
+.rows{
+    display: flex;
+}
+
+.shift{
+    padding-left: 20px;
+}
+
+.below{
+    padding-top: 20px;
+}
+
+
